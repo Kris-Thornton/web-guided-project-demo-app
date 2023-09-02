@@ -18,6 +18,7 @@ const store = createStore(rootReducer, applyMiddleware(logger));
 function App() {
   return (
     <div className="App">
+      <h1>Kris Thornton's first deployed project with vercel for Bloom.</h1>
       <Title />
     </div>
   );
