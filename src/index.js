@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import logger from "redux-logger";
 import { applyMiddleware, createStore } from "redux";
 import { Provider } from "react-redux";
-
+import "./App.css"
 import Title from "./components/Title";
 import rootReducer from "./reducers/titleReducer";
 
