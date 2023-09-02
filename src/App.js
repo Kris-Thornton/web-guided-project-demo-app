@@ -1,12 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+// import React from "react";
+// import ReactDOM from "react-dom/client";
+// import logger from "redux-logger";
+// import { applyMiddleware, createStore } from "redux";
+// import { Provider } from "react-redux";
 
-function App() {
-  return (
-    <div className="App">
-      <h1>My first Deployed App! </h1>
-    </div>
-  );
-}
+// import Title from "./components/Title";
+// import rootReducer from "./reducers/titleReducer";
 
-export default App;
+// // function reducer() {
+// //   return {
+// //     title: "Title from Redux store"
+// //   };
+// // }
+
+// const store = createStore(rootReducer, applyMiddleware(logger));
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <Title />
+//     </div>
+//   );
+// }
+
+// ReactDOM.createRoot(document.getElementById("root")).render(
+//   <Provider store={store}>
+//     <App />
+//   </Provider>
+// );
